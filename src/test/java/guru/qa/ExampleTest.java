@@ -13,13 +13,13 @@ public class ExampleTest {
     @Test
     void exampleTestTrue() {
 
-        Assertions.assertTrue(new Random().nextInt() > 1);
+        Assertions.assertTrue(2 >= 1);
     }
 
     @Test
     void exampleTestTrue1() {
 
-        Assertions.assertTrue(new Random().nextInt() > 2);
+        Assertions.assertTrue(3 >= 2);
     }
 
 }
