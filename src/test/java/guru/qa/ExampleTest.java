@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 public class ExampleTest {
 
     @Test
-    void exampleTestTrue() {
+    void exampleTestFalse() {
 
         Assertions.assertFalse(2 <= 1);
     }
