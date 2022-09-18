@@ -13,7 +13,7 @@ public class ExampleTest {
     @Test
     void exampleTestFalse() {
 
-        Assertions.assertFalse(2 <= 1);
+        Assertions.assertTrue(2 >= 10);
     }
 
     @Test
