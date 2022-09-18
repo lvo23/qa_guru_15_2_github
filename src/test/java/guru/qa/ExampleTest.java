@@ -19,7 +19,7 @@ public class ExampleTest {
     @Test
     void exampleTestTrue1() {
 
-        Assertions.assertTrue(3 >= 10);
+        Assertions.assertTrue(3 >= 2);
     }
 
 }
