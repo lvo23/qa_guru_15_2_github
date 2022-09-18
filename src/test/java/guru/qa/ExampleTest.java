@@ -9,9 +9,15 @@ import org.junit.jupiter.api.Test;
 public class ExampleTest {
 
     @Test
-    void exampleTest() {
+    void exampleTestTrue() {
 
         Assertions.assertTrue(2 > 1);
+    }
+
+    @Test
+    void exampleTestTrue1() {
+
+        Assertions.assertTrue(3 > 2);
     }
 
 }
